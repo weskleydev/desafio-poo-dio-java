@@ -22,6 +22,7 @@ public class Main {
         meeting1.getGuests().add("João");
         meeting1.getGuests().add("Kamily");
         meeting1.getGuests().add("Weskley");
+        meeting1.getGuests().add("Giselle");
        
         Schedule schedule = new Schedule();
         schedule.setNome("Agenda do dia " + LocalDate.now());
